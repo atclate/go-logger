@@ -1,1 +1,1 @@
-# go-logger
+# go-loggergo-logger is an easy-to-use library used to ease up logging for Golang projects.## How to useIn your project where you want to initialize a logger, just import logger "github.com/atclate/go-logger"  (e.g. init() in main.go)Then initialize logger by calling `logger.InitLogger(ioutil.Discard, os.Stdout, os.Stdout, os.Stderr, os.Stdout)`When you want to log, just call logger.Debug.Println("Debug logging turned on!")You can choose between Debug, Error, Warning, Info, and Trace loggers.Enjoy!
